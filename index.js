@@ -14,7 +14,7 @@ app.use('/',UserRouter);
 //doc
 const swaggerDocs = require("./config/swagger");
 swaggerDocs(app);
-
+module.exports=app;
 app.listen(3000,()=>{
     console.log("on 3000 port");
 })
