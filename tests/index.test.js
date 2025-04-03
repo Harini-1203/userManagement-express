@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const UserModel = require("../models/UserModel");
 const jwt = require("jsonwebtoken");
 
-let token; // To store JWT token for protected routes
+let token; 
 
 // Before all tests, connect to a test DB
 beforeAll(async () => {
