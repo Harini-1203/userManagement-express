@@ -38,3 +38,6 @@ npm start
 | DELETE | `/delete`  | Delete user account       | ✅ Yes     |
 | GET    | `/current` | Get current user details  | ✅ Yes     |
 
+Swagger Docs available at: [http://localhost:3000/api-docs](http://localhost:3000/api-docs)
+
+
