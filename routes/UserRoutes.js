@@ -131,7 +131,7 @@ UserRouter.route("/current").get(validateToken, userController.getCurrent);
  * @swagger
  * /delete:
  *   delete:
- *     summary: Delete user account
+ *     summary: Delete user account(protected)
  *     tags: [Users]
  *     security:
  *       - bearerAuth: []
